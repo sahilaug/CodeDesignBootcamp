@@ -1,6 +1,4 @@
-// eslint-disable-next-line class-methods-use-this
 const logSurplus = message => {
-  // eslint-disable-next-line no-console
   console.log(message);
 };
 

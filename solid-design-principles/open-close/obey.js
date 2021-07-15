@@ -1,3 +1,7 @@
+/*
+  While trying to add a new question type, original classes are close for modification but open for addition
+*/
+
 class BooleanQuestion {
   constructor(description) {
     this.description = description;
