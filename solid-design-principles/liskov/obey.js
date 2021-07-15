@@ -15,7 +15,7 @@ class FlyingBird extends Bird {
 }
 
 class SwimmingBird extends Bird {
-  fly() {
+  swim() {
     console.log('Bird is swimming');
   }
 }
@@ -40,6 +40,10 @@ const makeBirdFly = bird => {
   bird.fly();
 };
 
+const makeBirdSwim = bird => {
+  bird.swim();
+};
+
 const donaldDuck = new Duck();
 console.log('Lets see what a duck can do');
 makeBirdEat(donaldDuck);
@@ -48,4 +52,4 @@ makeBirdFly(donaldDuck);
 const penguin = new Penguin();
 console.log('Lets see what a penguin can do');
 makeBirdEat(penguin);
-makeBirdFly(penguin);
+makeBirdSwim(penguin);

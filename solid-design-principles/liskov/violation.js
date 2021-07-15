@@ -37,6 +37,10 @@ const makeBirdFly = bird => {
   bird.fly();
 };
 
+const makeBirdSwim = bird => {
+  bird.fly();
+};
+
 const donaldDuck = new Duck();
 console.log('Lets see what a duck can do');
 makeBirdEat(donaldDuck);
@@ -45,4 +49,5 @@ makeBirdFly(donaldDuck);
 const penguin = new Penguin();
 console.log('Lets see what a penguin can do');
 makeBirdEat(penguin);
+makeBirdSwim(penguin);
 makeBirdFly(penguin);
