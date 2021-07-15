@@ -28,7 +28,7 @@ describe('Cards test suite', () => {
     expect(result).toBe('3 of Hearts < 3 of Diamonds');
   });
 
-  it('compares equal correctly', () => {
+  it('compares equal cards correctly', () => {
     const card1 = '3 of Hearts';
     const card2 = '3 of Heart';
 
