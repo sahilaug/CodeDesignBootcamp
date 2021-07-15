@@ -19,6 +19,24 @@ describe('Cards test suite', () => {
     expect(result).toBe('3 of Hearts < Ace of Diamonds');
   });
 
+  it('compares a cards with same rank correctly', () => {
+    const card1 = '3 of Hearts';
+    const card2 = '3 of Diamonds';
+
+    const result = compare(card1, card2);
+
+    expect(result).toBe('3 of Hearts < 3 of Diamonds');
+  });
+
+  it('compares equal correctly', () => {
+    const card1 = '3 of Hearts';
+    const card2 = '3 of Heart';
+
+    const result = compare(card1, card2);
+
+    expect(result).toBe('3 of Hearts = 3 of Heart');
+  });
+
   it('compares correctly when input is not in plural', () => {
     const card1 = '3 of Heart';
     const card2 = 'Ace of Diamond';
