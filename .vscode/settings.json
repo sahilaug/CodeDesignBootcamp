@@ -13,7 +13,10 @@
     "typescriptreact"
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": [],
+  "cSpell.words": [
+    "cryptocurrency",
+    "dogecoin"
+  ],
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "eslint.alwaysShowStatus": true,
   "eslint.codeActionsOnSave.mode": "all",

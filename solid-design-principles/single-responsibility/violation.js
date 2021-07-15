@@ -1,3 +1,8 @@
+/*
+  Violation:
+  Calories class needs to change if there is a change in logic of how we calculate the calories
+  Calories class also needs to change if there is a change in how we log surplus, lets say by sending an email alert
+*/
 class Calories {
   constructor(maxCalories) {
     this.max = maxCalories;
@@ -11,9 +16,7 @@ class Calories {
     }
   }
 
-  // eslint-disable-next-line class-methods-use-this
   logSurplus() {
-    // eslint-disable-next-line no-console
     console.log('Max calories exceeded !!!');
   }
 }

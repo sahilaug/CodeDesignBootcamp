@@ -39,6 +39,9 @@
         "avoidEscape": true
       }
     ],
+    "no-console": "off",
+    "class-methods-use-this": "off",
+    "max-classes-per-file": "off",
     "react/jsx-uses-vars": "error",
     "react/prop-types": "off",
     "indent": "off",
