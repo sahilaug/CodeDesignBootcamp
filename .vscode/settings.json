@@ -14,8 +14,10 @@
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "cSpell.words": [
+    "Ajio",
     "cryptocurrency",
-    "dogecoin"
+    "dogecoin",
+    "paypal"
   ],
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "eslint.alwaysShowStatus": true,
