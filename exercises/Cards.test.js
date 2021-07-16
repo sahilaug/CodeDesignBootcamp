@@ -28,6 +28,15 @@ describe('Cards test suite', () => {
     expect(result).toBe('3 of Hearts < 3 of Diamonds');
   });
 
+  it('compares another set of cards cards with same rank correctly', () => {
+    const card1 = '3 of Diamonds';
+    const card2 = '3 of Hearts';
+
+    const result = compare(card1, card2);
+
+    expect(result).toBe('3 of Diamonds > 3 of Hearts');
+  });
+
   it('compares equal cards correctly', () => {
     const card1 = '3 of Hearts';
     const card2 = '3 of Heart';
